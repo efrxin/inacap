@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color:  #1405ac ;
+    background-image: url("img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .iniciarsesion{
+    background-color: #ffffff;
+    color: #1405ac;
+    width: 300px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+  }
+  .registro-form {
+    background-color: #ffffff;
+    color: #1405ac;
+    width: 300px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+  }
+  .registro-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  .registro-form button {
+    width: 100%;
+    padding: 10px;
+    background-color:#1405ac;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+  }
+  footer {
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .profile {
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+  }
+  .search-filter {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .search-filter label {
+    margin-right: 10px;
+    color: #1405ac;
+  }
+  .search-filter select {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .search-filter button {
+    padding: 11px;
+    background-color:#ffffff;
+    color:#1405ac;
+    border:#ffffff;
+    border-radius: 0ch;
+    cursor: pointer;
+  }
+  .titulo{
+    text-align: end;
+    color: #ffffff;
+    margin-top: 150px;
+  }
